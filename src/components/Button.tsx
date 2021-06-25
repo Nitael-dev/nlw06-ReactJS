@@ -14,5 +14,5 @@ export function Button({ isOutlined = false, ...props }: ButtonProps) {
         className={`button ${isOutlined ? 'outlined' : ''}`} 
         {...props}/>
     )
-
+    
 }

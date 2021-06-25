@@ -9,7 +9,7 @@ import { Button } from "../components/Button";
 import "../styles/auth.scss"
 import { useAuth } from '../hooks/useAuth';
 import { FormEvent, useState } from 'react';
-import { database } from '../services/firebase';
+import { auth, database } from '../services/firebase';
 
 // webpack (snowpack, vite, ...) Module Bundler 
 
